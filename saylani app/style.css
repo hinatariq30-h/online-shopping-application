@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    /* font-family: 'Poppins', sans-serif; */
+    /* font-family: 'Work Sans', sans-serif; */
+}
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background:  linear-gradient(to bottom,rgba(108, 218, 225, 0.81), rgba(168, 255, 109, 0.73));
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+ 
+nav {
+    display: flex;
+    padding-left: 40%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav img {
+    width: 294px;
+    border-radius: 40px;
+    /* background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/logo.png); */
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    padding-bottom: 100px;
+
+}
+
+.nav-links ul li a {
+    color: rgb(246, 239, 239);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Source Sans Pro', sans-serif;
+    transition: 0.5s ease;
+
+}
+
+
+
+.nav-links ul li a:hover {
+    color: #060302;
+
+}
+
+.nav-links ul li:hover::after {
+    width: 100%;
+}
+
+
+
+.text-box {
+    width: 100%;
+    color: rgb(243, 232, 232);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+.text-box h1 {
+    font-size: 50px;
+    color: rgb(255, 238, 238);
+    font-weight: 900;
+    /* text-shadow: #e73ca3; */
+    text-shadow: 4px 4px 10px #f428ba;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    /* font-family: 'Bungee Spice', cursive; */
+    /* font-family: 'Source Sans Pro', sans-serif; */
+
+
+
+}
+
+
+
+
+.text-box p {
+    margin: 7px 0 40px;
+    font-size: 25px;
+    color: rgb(11, 10, 10);
+    font-family: 'Source Sans Pro', sans-serif;
+
+    font-weight: 800;
+
+}
+
+.text-box button {
+    /* border: 2px solid #469671; */
+    /* background-color: #db31bc; */
+    background:  linear-gradient(to bottom,rgba(108, 218, 225, 0.81), rgba(168, 255, 109, 0.73));
+ 
+    border: none;
+    padding: 15px 34px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    /* background: transparent; */
+    position: relative;
+    cursor: pointer;
+    font-weight: 800;
+
+
+}
+
+.text-box button {
+    display: inline-block;
+    text-decoration: none;
+    color: #0c0d0c;
+
+
+
+}
+
+.text-box button:hover {
+    background-color: #0d0806;
+
+    transition: 2s ease ease-out;
+    font-weight: bold;
+
+}
+
+nav .bi {
+    display: none;
+
+}
+
+@media (max-width:950px) {
+    .text-box h1 {
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 700px) {
+    .text-box h1 {
+        font-size: 30px;
+
+    }
+
+    .text-box p {
+        font-size: 15px;
+    }
+
+    .nav-links ul li {
+        display: block;
+        padding-top: 5%;
+    }
+
+    .nav-links {
+        position: absolute;
+        background: #000000;
+        height: 70%;
+        width: 100%;
+
+        top: -600px;
+        right: 0;
+        text-align: center;
+        z-index: 2;
+        transition: 1s;
+
+    }
+
+    .text-box button {
+
+
+        padding: 13px 24px;
+    }
+
+    nav .bi {
+        display: block;
+        color: black;
+        margin: 10px;
+        font-size: 26px;
+        cursor: pointer;
+        background-color: white;
+        border-radius: 10px;
+        padding: 2%;
+
+
+    }
+
+    .nav-links ul {
+        padding: 30px;
+    }
+
+    /* 
+    .nav-links ul li:hover {
+        background-color: #182e24;
+        width: 50%;
+    } */
+
+    nav img {
+        width: 22%;
+    }
+
+}
+
+/* ----objective------ */
+.Objective-Container {
+    width: 100%;
+    background: linear-gradient(#d5a5c2, #ffb36c);
+    padding: 40px 0 20px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+
+}
+
+.objective {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 70px;
+    font-family: 'Bungee Spice', cursive;
+    font-family: 'Dangrek', cursive;
+
+
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 900;
+    color: black;
+}
+
+p {
+    color: #674949;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    padding: 10px;
+}
+
+/* .sub{
+    text-align: center;
+    pa
+        
+}
+.sign{
+    color: #daece4;
+} */
